@@ -1,0 +1,19 @@
+{
+  "name": "poral-service-starter",
+  "version": "0.0.0",
+  "description": "Portal service worker starter",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3"
+  },
+  "dependencies": {
+    "@meetportal/portal-js": "^0.4.2"
+  }
+}
